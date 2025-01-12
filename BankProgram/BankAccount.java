@@ -1,5 +1,7 @@
 package com.mycompany.bankprogram;
 
+// ** Update comment below **
+
 /**
  * Program:  BankAccount Class
  * @author Student
@@ -8,11 +10,12 @@ package com.mycompany.bankprogram;
 
 public class BankAccount 
 {
-    //instance variable
+    // ** insert comment here **
    // ** Insert relevant code here **
     private static final double MIN_BALANCE = 0.0;
 
-    //Contructor to set balance to zero
+    //Contructor
+    // ** Insert comment **
     // ** Insert relevant code here **
 
     //Method to allow user deposit money
@@ -22,8 +25,8 @@ public class BankAccount
         
     }
 
-    //Method to withdraw money if the 
-    //balance minus the amount is not less than the minimum balance 
+    //Method to withdraw money 
+    // ** insert additional explanatory comment here 
     
     public void withdraw(double amount) {
           // ** Insert relevant code here **
