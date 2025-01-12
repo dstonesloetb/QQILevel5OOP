@@ -31,5 +31,6 @@ public class BankAccount
 
     //Method to output the current balance 
     // ** Insert relevant code here **
+        System.out.printf("Current balance: €%.2f\n", balance);
    
 } //end class 
