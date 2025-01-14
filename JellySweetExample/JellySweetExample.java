@@ -1,6 +1,6 @@
 package com.mycompany.JellySweetExample;
 
-public class JellyConstructorExample {
+public class JellySweetExample {
 
     public static void main(String[] args) {
         //Create a Jelly object using the five argument constructor
