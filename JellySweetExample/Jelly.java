@@ -1,3 +1,4 @@
+package com.mycompany.JellySweetExample;
 
 public class Jelly {
 //Instance variables
