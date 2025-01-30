@@ -42,6 +42,25 @@ public class RectangleBoxInheritanceExample {
         System.out.println("Area of rectangle 2: "
                 +Float.toString(r2.getArea()));
         
+        //Create a box of width 10, length 20, height 30
+        //could create vars for w,l,h and pass them into
+        //the constructor
+        //Box b1 = new Box(width, len, height); BETTER PRACTICE 
+        
+        Box b1 = new Box (10, 20, 30);
+        
+        //Display box 1 
+        //At this point we don't have a toString function in the
+        //Box class
+        // so when we call the toString function it is being
+        //inherited from the RECTANGLE SUPER CLASS 
+        
+        System.out.println("\nBox 1:");
+        System.out.println(b1.toString());
+        
+        //Display the volume of box 1
+        
+        System.out.println("Volume of box 1: "+b1.getVolume());
         
         
         //Create Box Objects
