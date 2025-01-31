@@ -63,8 +63,29 @@ public class RectangleBoxInheritanceExample {
         System.out.println("Volume of box 1: "+b1.getVolume());
         
         
-        //Create Box Objects
-        //Box b1 = new Box();
+        System.out.println("\nBox 2");
+        
+        //Create a second Box Object
+        //using the no args constructor
+        Box b2 = new Box();
+        
+        float width = 5f;
+        float len = 10f;
+        float height = 20f;
+        
+        //Use the setter methods in the Box class
+        //to update the properties for Box 2
+        b2.setLength(len);
+        b2.setWidth(width);
+        b2.setHeight(height);
+        
+        //Display box 2 using the getter methods
+        System.out.println("Width: "+b2.getWidth());       
+        System.out.println("Length: "+b2.getLength());
+        System.out.println("Height: "+b2.getHeight());
+        
+        //Display volume for box 2 
+        System.out.println("Volume: "+b2.getVolume());
         
     } //end main 
 
