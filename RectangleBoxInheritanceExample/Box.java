@@ -36,7 +36,17 @@ public class Box extends Rectangle {
         super();
         this.height = 0.0f;
     }
-        
+
+    //Setter and getter methods
+    public void setHeight(float height) {
+        this.height = height;
+    }
+
+    public float getHeight() {
+        return height;
+    }
+
+ 
     /**
      * @return
      */
