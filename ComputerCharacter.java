@@ -5,6 +5,7 @@ Encapsulation → private variables + public getters/setters
 Constructor overloading → multiple ways to create objects
 Method behavior → game-like actions (takeDamage, heal, levelUp)
 Polished output → overridden toString()
+Super Class (or base class)
 
 */
 
