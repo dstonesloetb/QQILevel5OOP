@@ -5,6 +5,8 @@ User
 Car
 Student
 Jelly
+Person
+
 Computer Character
 Human
 
